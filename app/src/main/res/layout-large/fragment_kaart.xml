@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.vragenOplossen.Kaart">
+
+
+
+    <HorizontalScrollView
+        android:id="@+id/KaartScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/KaartConstraintLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <com.example.beardwulf.reva.views.PinView
+                android:id="@+id/imageKaart"
+                android:layout_width="810dp"
+                android:layout_height="match_parent"
+                android:src="@mipmap/grondplan"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dark_shape"
+        android:orientation="horizontal"
+        android:paddingStart="48dp"
+        android:paddingTop="32dp"
+        android:paddingEnd="48dp"
+        android:paddingBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.65">
+            <TextView
+                android:id="@+id/txtExhibitorName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center_vertical"
+                android:text="1. Standnaam"
+                android:textColor="#FFF"
+                android:textSize="24sp"
+                android:textStyle="normal"
+                app:layout_constraintStart_toStartOf="parent" />
+            <TextView
+                android:id="@+id/txtCategoryName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center_vertical"
+                android:text="@string/categorie"
+                android:textColor="@color/LightGray"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                app:layout_constraintStart_toStartOf="parent" />
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/btnVraag"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginEnd="18dp"
+            android:layout_weight="0.35"
+            android:background="@drawable/buttonlayoutlightblue"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/vraag"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

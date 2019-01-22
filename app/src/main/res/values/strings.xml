@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">REVA</string>
+    <string name="welkomtekst">Welkom bij \nReva</string>
+    <string name="welkomtekstL">Welkom bij Reva</string>
+    <string name="stap3">Laatste stap: selecteer %d van jullie favoriete categorieën</string>
+    <string name="maakfoto">Foto nemen</string>
+    <string name="gaverder">Verder</string>
+    <string name="selecteer">Selecteer</string>
+    <string name="activity2_name">Group photo</string>
+    <string name="stap2">Stap 2: Voer de gegevens van jullie groep in</string>
+    <string name="stap1">Stap 1: Neem een groepsfoto</string>
+    <string name="stap0">Geef de code in om deel te kunnen nemen aan de quiz</string>
+    <string name="welkom">Welkom</string>
+    <string name="login">Deelnemen</string>
+    <string name="fotowijzigen">Foto wijzigen</string>
+    <string name="vraag">Vraag</string>
+    <string name="vulIn">Vul in</string>
+    <string name="geselecteerd">Categorieën geselecteerd</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="goedZo">In orde!</string>
+    <string name="oke">Oke</string>
+    <string name="allesIngevuld">Alle vragen werden ingevuld.</string>
+    <string name="klaar">Jullie zijn klaar!</string>
+    <string name="groepsnaam">Groepsnaam:</string>
+    <string name="textboxgroepsnaam">De octopusesen</string>
+    <string name="groepsleden">Groepsleden:</string>
+    <string name="textboxgroepsleden">Cédric, Jens, Jelle </string>
+    <string name="antwoordVerzonden">Het antwoord werd goed verzonden. Ga nu naar het volgende standje.</string>
+    <string name="antwoord">Antwoord</string>
+    <string name="groepscode">qsdfd</string>
+    <string name="ok">OK</string>
+    <string name="categorie">Categorie</string>
+</resources>

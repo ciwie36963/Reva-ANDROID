@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dark_popup"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".activities.vragenOplossen.VragenOplossen"
+    android:id="@+id/kadertje"
+    android:layout_marginTop="55dp"
+    android:layout_marginStart="10dp"
+    >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="@+id/kadertje"
+        app:layout_constraintEnd_toEndOf="@+id/kadertje"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintBottom_toBottomOf="@+id/kadertje"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="28dp"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.55"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/antwoordVerzonden"
+            android:textColor="@color/LightGray"
+            android:textSize="18sp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/btnOke"
+             />
+
+        <Button
+            android:id="@+id/btnOke"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_weight="0.45"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttonlayoutclassicblue"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/ok"
+            android:textColor="#FFF"
+            android:textSize="22sp"
+             />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/goedZo"
+        android:textColor="#FFF"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</android.support.constraint.ConstraintLayout>
